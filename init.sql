@@ -1,0 +1,2 @@
+CREATE DATABASE db-auth;
+GRANT ALL PRIVILEGES ON DATABASE db-auth TO postgres;
