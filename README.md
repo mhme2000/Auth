@@ -12,9 +12,7 @@ Clone o projeto com: `https://github.com/Matheus-Sleutjes/AuthenticationAPI.git`
 
 Acesse o projeto, e execute: `docker compose up --build -d`
 
-Acesse a URL para a documentação: `http://localhost:8080/swagger/index.html` ou [clique aqui](http://localhost:8080/swagger/index.html) para ser redirecionado para o swagger
-
-<img src="Authentication.API/swagger.png" alt="swagger">
+Acesse a URL para a documentação: `http://localhost:8080/swagger/index.html` ou [clique aqui](http://localhost:8080/swagger/index.html) para ser redirecionado para o swagger.
 
 Pronto! Agora é só se divertir!
 
