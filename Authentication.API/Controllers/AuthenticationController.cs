@@ -15,7 +15,7 @@ namespace Authentication.API.Controllers
         public async Task<IActionResult> GetByIdAsync(Guid registration)
         {
             var entity = await _authenticationService.FindAsync(registration);
-            if (entity == null) return NotFound("Usuário não encontrado.");
+            if (entity == null) return NotFound("User not found.");
             return Ok(entity);
         }
 
