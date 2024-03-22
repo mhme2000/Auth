@@ -71,7 +71,7 @@ namespace Authentication.Application.Service
         {
             List<Claim> claims =
             [
-                new(ClaimTypes.Name, user.Username),
+                new(ClaimTypes.NameIdentifier, user.Id.ToString()),
             ];
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
