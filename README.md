@@ -1,23 +1,56 @@
-# AuthenticationAPI
+<h1 align="center">
+   MS-Auth 
+</h1>
 
-## Sobre o projeto 
+<h4 align="center"> 
+	🚧  MS-Auth 🚧 MVP concluído ... 🚧 🚀
+</h4>
 
-Authentication API é um projeto de autenticação, tem o CRUD de Usuario e função de Login retornando token de autenticação usando JWT.
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar">Como executar</a> •
+  <a href="#-como-contribuir-para-o-projeto">Como contribuir para o projeto</a> •
+</p>
 
-## Como executar
 
-Pré requisitos **Docker** e **SDK .NET 8.0** (caso queira debugar).
+## 💻 Sobre o projeto
 
-Clone o projeto com: `https://github.com/Matheus-Sleutjes/AuthenticationAPI.git`
+MS-Auth em .NET 8. Projeto que compõe o serviço de ponto eletrônico desenvolvido no hackaton da pós tech da FIAP.
 
-Acesse o projeto, e execute: `docker compose up --build -d`
+---
 
-Acesse a URL para a documentação: `http://localhost:8080/swagger/index.html` ou [clique aqui](http://localhost:8080/swagger/index.html) para ser redirecionado para o swagger.
+## ⚙️ Funcionalidades
 
-Pronto! Agora é só se divertir!
+- [x] Criar usuário;
+- [x] Editar usuário;
+- [x] Deletar usuário;
+- [x] Buscar usuário;
+- [x] Fazer login via id/usuário e senha;
+- [x] Validar token jwt gerado.
 
-## Considerações
+---
 
-Caso queira rodar em modo Debug voce pode executar `docker run --name db-auth -e POSTGRES_PASSWORD=postgres -p 5000:5432 -d postgres` para subir uma instância de BD, ou criar um banco em Postgres baseado na string de conexão `Host=localhost;Database=db-auth;Port=5000;Username=postgres;Password=postgres;CommandTimeout=120;`
+## 💻 Como executar
 
-Feito com carinho por Matheus Sleutjes
+- Pré requisitos
+  - Docker;
+  - SDK .NET 8.0 (caso queira debugar);
+
+- Clone o projeto com: `git clone https://github.com/mhme2000/Auth.git`
+- Acesse o projeto, e execute: `docker compose up --build -d`
+- Pronto! Agora seu projeto está rodando no endereço http://localhost:7008/swagger, é só se divertir!
+
+---
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+---
+
+Feito com ❤️ por Marcos Eckart 👋🏽 [Entre em contato!](https://www.linkedin.com/in/marcos-eckart/)
+
+---
